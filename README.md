@@ -58,7 +58,7 @@ export const initialState = {
 * [x] Within `App.js`, create an event handler connected to the 1 button's `onClick` method.
 * [x] Within your event handler, dispatch the `addOne` action creator.
 * [x] **Test** that your event is correctly connected by pushing the 1 button in the browser. Your total should increase by 1.
-* [ x **Think** about the path of execution from the clicking of the one button to the rendering of the updated total. What is the order of execution? Within the `Understanding-Question.md` file, write out in your own words the steps of that process.
+* [x] **Think** about the path of execution from the clicking of the one button to the rendering of the updated total. What is the order of execution? Within the `Understanding-Question.md` file, write out in your own words the steps of that process.
 
 
 #### Connect a better premade action.
@@ -91,9 +91,9 @@ export const initialState = {
 #### Add in memory functions from scratch.
 > *Congratulations! You have gone through the entire process for adding an action to your app! Now, see if you can follow the same process (reducer case => action creator => UI connection) for the following app features. IN EACH CASE, ALWAYS TEST THAT YOUR FEATURE WORKS BEFORE PROCEEDING FORWARD.*
 
-* [ ] When `M+` is pressed, the current memory value should be set to the current total value. Test by seeing the result of memory in the UI.
-* [ ] When `MR` is pressed, the current memory value should be applied to the current total value(See the APPLY_NUMBER case). Test by adding a value to memory and then seeing if the total updates correctly when pressed.
-* [ ] When `MC` is pressed, the current memory value should be set to zero. Test by adding a value to memory and then seeing the memory value reset to zero when pressed.
+* [x] When `M+` is pressed, the current memory value should be set to the current total value. Test by seeing the result of memory in the UI.
+* [x] When `MR` is pressed, the current memory value should be applied to the current total value(See the APPLY_NUMBER case). Test by adding a value to memory and then seeing if the total updates correctly when pressed.
+* [x] When `MC` is pressed, the current memory value should be set to zero. Test by adding a value to memory and then seeing the memory value reset to zero when pressed.
 
 
 ### Task 3: Stretch goals
